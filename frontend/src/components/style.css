@@ -1,0 +1,92 @@
+body {
+    background-color: #1a1a1a;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 50px auto;
+    margin-right: 10px auto;
+    margin-left: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(171, 0, 250, 0.187);
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .status div {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .upload-status {
+    color: #007bff;
+  }
+  
+  .search-bar input {
+    align-self: center;
+    margin: 20px;
+    margin-top: 40px;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    color: #3a3a3a;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.171);
+    transition: box-shadow 0.3s;
+  }
+  
+  .search-bar input:focus {
+    box-shadow: 0 0 8px rgba(171, 0, 250, 0.187);
+  }
+  
+  .card-container {
+    margin-bottom: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.171);
+  }
+  .card div strong {
+    color: #ab00faf1;
+  }
+  
+  .card div {
+    margin-bottom: 8px;
+  }
+  
+  .inputfile {
+    display: none;
+  }
+  
+  .send {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.171);
+    border-radius: 25px;
+    font-weight: bold;
+    color: #ab00faf1;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .send:hover {
+    box-shadow: 0 0 8px rgba(171, 0, 250, 0.187);
+    background-color: #ab00faf1;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
